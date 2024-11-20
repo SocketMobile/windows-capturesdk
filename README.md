@@ -1,17 +1,28 @@
-# Windows CaptureSDK
+# Windows CaptureSDK - Version 1.7.34.67
+
+The Windows CaptureSDK is [available publicly on nuget.org here](https://www.nuget.org/packages/SocketMobile.Capture)
+
+## Devices Compatibility and CaptureSDK Versions
+
+|                    Devices                     | <= 1.2 | 1.3 | 1.4 | 1.5 | 1.7 |
+| :--------------------------------------------: | :----: | :-: | :-: | :-: | :-: |
+|                    **S320**                    |   ❌   | ❌  | ❌ | ✅ | ✅ |
+|                 **M930/M940**                  |   ❌   | ❌  | ❌ | ✅ | ✅ |
+|               **SocketCam C820**               |   ❌   | ❌  | ❌ | ❌ | ✅ |
+|               **S720/D720/S820**               |   ❌   | ✅  | ✅ | ✅ | ✅ |
+| **S550, and all other barcode scanners**       |   ✅   | ✅  | ✅ | ✅ | ✅ |
+
+Note: Bluetooth LE devices (such as the D600, S550 and S320) support also relies on the Companion version for Windows and Android.
+For instance, the D600 and the S370 are currently not supported by Windows Companion.
 
 Socket Mobile is a leading innovator of data capture and delivery solutions for enhanced productivity.
 
-CaptureSDK is the easiest solution for adding barcode scanning and RFID/NFC reading capability to an iOS application.
+CaptureSDK is the easiest solution for adding barcode scanning capability to a Windows application.
 
-The Socket Mobile barcode scanner and contactless reader/writer are an ergonomic, fast and accurate solution to a variety of data entry scenarios.
+The Socket Mobile barcode scanner is an ergonomic, fast and accurate solution to a variety of data entry scenarios.
 
-To access our CaptureSDK on all platforms, you can login into our [DEVELOPERS PORTAL](https://www.socketmobile.com/dev-portal/portal)
+This SDK is very easy to integrate to an application without any requirement to follow a specific design architecture.
 
-More documentation can be found [here](https://docs.socketmobile.com/capture/csharp/en/latest/ "CaptureSDK Documentation").
+Integration into an application can be done in as little as 10 minutes!
 
-This SDK is very easy to integrate to an application without requirement to follow a specific design architecture.
-
-Within 10 minutes the barcode scanning or RFID/NFC reading capability can be integrated into an application.
-
-The CaptureSDK offers a built-in barcode scanner called SocketCam, allowing to test and integrate the SDK even before getting a Socket Mobile scanner, using the exact same API, which makes the transition from using SocketCam to a Socket scanner totally frictionless.
+More documentation can be found [here](https://docs.socketmobile.com/capture/csharp/en/latest/).
