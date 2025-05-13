@@ -11,9 +11,11 @@ The Windows CaptureSDK is [available publicly on nuget.org here](https://www.nug
 |               **SocketCam C820**               |   ❌   | ❌  | ❌ | ❌ | ✅ |
 |               **S720/D720/S820**               |   ❌   | ✅  | ✅ | ✅ | ✅ |
 | **S550, and all other barcode scanners**       |   ✅   | ✅  | ✅ | ✅ | ✅ |
+|                    **S370**                    |   ❌   | ❌  | ✅ | ✅ | ✅ |
+|                    **M963**                    |   ❌   | ❌  | ❌ | ❌ | ✅ |
 
 Note: Bluetooth LE devices (such as the D600, S550 and S320) support also relies on the Companion version for Windows and Android.
-For instance, the D600 and the S370 are currently not supported by Windows Companion.
+For instance, the D600 is not supported by Windows Companion.
 
 Socket Mobile is a leading innovator of data capture and delivery solutions for enhanced productivity.
 
@@ -25,4 +27,4 @@ This SDK is very easy to integrate to an application without any requirement to 
 
 Integration into an application can be done in as little as 10 minutes!
 
-More documentation can be found [here](https://docs.socketmobile.com/capture/csharp/en/latest/).
+More documentation can be found [here](https://docs.socketmobile.dev/capture/csharp/en/latest/).
