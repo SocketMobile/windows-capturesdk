@@ -1,4 +1,4 @@
-# Windows CaptureSDK - Version 1.7.34.67
+# C# CaptureSDK Version 1.7.68.40 Windows
 
 The Windows CaptureSDK is [available publicly on nuget.org here](https://www.nuget.org/packages/SocketMobile.Capture)
 
@@ -8,7 +8,7 @@ The Windows CaptureSDK is [available publicly on nuget.org here](https://www.nug
 | :--------------------------------------------: | :----: | :-: | :-: | :-: | :-: |
 |                    **S320**                    |   ❌   | ❌  | ❌ | ✅ | ✅ |
 |                 **M930/M940**                  |   ❌   | ❌  | ❌ | ✅ | ✅ |
-|               **SocketCam C820**               |   ❌   | ❌  | ❌ | ❌ | ✅ |
+|             **SocketCam C820[UWP]**            |   ❌   | ❌  | ❌ | ❌ | ✅ |
 |               **S720/D720/S820**               |   ❌   | ✅  | ✅ | ✅ | ✅ |
 | **S550, and all other barcode scanners**       |   ✅   | ✅  | ✅ | ✅ | ✅ |
 |                    **S370**                    |   ❌   | ❌  | ✅ | ✅ | ✅ |

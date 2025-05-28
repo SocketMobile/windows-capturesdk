@@ -15,3 +15,12 @@ This file tracks released versions of the C# CaptureSDK.
 - Added support for M963 device 
 - Fixed connection dropping after 30 seconds for projects targeting .NET 6 and above
 - Updated documentation on S370 device about getting a double device arrival event
+
+## Version 1.7.68.40
+
+- Updated NuGet package released on [nuget.org](https://www.nuget.org/packages/SocketMobile.Capture)
+- Removed Xamarin support
+- Added device properties in CaptureHelper
+  - [Get/Set]ThemeSelectionAsync() method. Retrieve or Set the UI theme for devices like S550 or S370
+  - SetFactoryResetAsync() method. Factory resets a Bluetooth Low Energy device like S320, S370, S550
+  - [Get/Set]TimersTimeoutAsync() method. Retrieve or Set the auto lock and power off timers
