@@ -24,3 +24,14 @@ This file tracks released versions of the C# CaptureSDK.
   - [Get/Set]ThemeSelectionAsync() method. Retrieve or Set the UI theme for devices like S550 or S370
   - SetFactoryResetAsync() method. Factory resets a Bluetooth Low Energy device like S320, S370, S550
   - [Get/Set]TimersTimeoutAsync() method. Retrieve or Set the auto lock and power off timers
+
+## Version 1.7.83.246
+
+- Updated NuGet package released on [nuget.org](https://www.nuget.org/packages/SocketMobile.Capture)
+- Fixed `SetTimersTimeoutAsync()` method by adding the auto lock parameter
+  - Added Timer documentation [here](https://docs.socketmobile.dev/capture/csharp/en/latest/topicsTimers.html)
+- Fixed SocketCam's stability on Windows (UWP)
+  - Camera switch
+  - No Camera detected
+  - USB Cameara support, check [documentation](https://docs.socketmobile.dev/capture/csharp/en/latest/topicsSocketCam.html) under SocketCam->Setup->Windows (UWP)->Note
+- Added the NFC Tag ID, `TagIdData`, in the `CaptureDecodedData` received from the `DecodedData` event

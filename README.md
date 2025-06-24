@@ -1,4 +1,4 @@
-# C# CaptureSDK Version 1.7.68.40 Windows
+# C# CaptureSDK Version 1.7.83.246 Windows
 
 The Windows CaptureSDK is [available publicly on nuget.org here](https://www.nuget.org/packages/SocketMobile.Capture)
 
@@ -14,7 +14,7 @@ The Windows CaptureSDK is [available publicly on nuget.org here](https://www.nug
 |                    **S370**                    |   ❌   | ❌  | ✅ | ✅ | ✅ |
 |                    **M963**                    |   ❌   | ❌  | ❌ | ❌ | ✅ |
 
-Note: Bluetooth LE devices (such as the D600, S550 and S320) support also relies on the Companion version for Windows and Android.
+Note: Bluetooth LE devices (such as the D600, S550 and S320) support also relies on the Companion version.
 For instance, the D600 is not supported by Windows Companion.
 
 Socket Mobile is a leading innovator of data capture and delivery solutions for enhanced productivity.
