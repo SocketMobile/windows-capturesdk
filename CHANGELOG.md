@@ -41,3 +41,8 @@ This file tracks released versions of the C# CaptureSDK.
 - Updated NuGet package released on [nuget.org](https://www.nuget.org/packages/SocketMobile.Capture)
 - Added SocketCam C820 support to MAUI
 - Fixed symbology availability across different camera usages. Symbologies are now consistent across all devices
+
+## Version 1.8.1.594
+
+- Updated NuGet package released on [nuget.org](https://www.nuget.org/packages/SocketMobile.Capture)
+- Added support for SocketScan S721 scanner on Windows

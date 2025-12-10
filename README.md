@@ -1,18 +1,19 @@
-# C# CaptureSDK Version 1.7.112.395 Windows
+# C# CaptureSDK Version 1.8.1.594 Windows
 
 The Windows CaptureSDK is [available publicly on nuget.org here](https://www.nuget.org/packages/SocketMobile.Capture)
 
 ## Devices Compatibility and CaptureSDK Versions
 
-|                    Devices                     | <= 1.2 | 1.3 | 1.4 | 1.5 | 1.7 |
-| :--------------------------------------------: | :----: | :-: | :-: | :-: | :-: |
-|                    **S320**                    |   ❌   | ❌  | ❌ | ✅ | ✅ |
-|                 **M930/M940**                  |   ❌   | ❌  | ❌ | ✅ | ✅ |
-|        **SocketCam C820[UWP/MAUI-Net6]**       |   ❌   | ❌  | ❌ | ❌ | ✅ |
-|               **S720/D720/S820**               |   ❌   | ✅  | ✅ | ✅ | ✅ |
-| **S550, and all other barcode scanners**       |   ✅   | ✅  | ✅ | ✅ | ✅ |
-|                    **S370**                    |   ❌   | ❌  | ✅ | ✅ | ✅ |
-|                    **M963**                    |   ❌   | ❌  | ❌ | ❌ | ✅ |
+|                    Devices                     | <= 1.2 | 1.3 | 1.4 | 1.5 | 1.7 | 1.8 |
+| :--------------------------------------------: | :----: | :-: | :-: | :-: | :-: | :-: |
+|                    **S320**                    |   ❌   | ❌  | ❌ | ✅ | ✅ | ✅ |
+|                 **M930/M940**                  |   ❌   | ❌  | ❌ | ✅ | ✅ | ✅ |
+|        **SocketCam C820[UWP/MAUI-Net6]**       |   ❌   | ❌  | ❌ | ❌ | ✅ | ✅ |
+|               **S720/D720/S820**               |   ❌   | ✅  | ✅ | ✅ | ✅ | ✅ |
+| **S550, and all other barcode scanners**       |   ✅   | ✅  | ✅ | ✅ | ✅ | ✅ |
+|                    **S370**                    |   ❌   | ❌  | ✅ | ✅ | ✅ | ✅ |
+|                    **M963**                    |   ❌   | ❌  | ❌ | ❌ | ✅ | ✅ |
+|               **S721 (Windows)**               |   ❌   | ❌  | ❌ | ❌ | ❌ | ✅ |
 
 Note: Bluetooth LE devices (such as the D600, S550 and S320) support also relies on the Companion version.
 For instance, the D600 is not supported by Windows Companion.
