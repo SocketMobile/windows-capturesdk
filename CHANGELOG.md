@@ -46,3 +46,12 @@ This file tracks released versions of the C# CaptureSDK.
 
 - Updated NuGet package released on [nuget.org](https://www.nuget.org/packages/SocketMobile.Capture)
 - Added support for SocketScan S721 scanner on Windows
+
+## Version 1.8.13.170
+- Updated NuGet package released on [nuget.org](https://www.nuget.org/packages/SocketMobile.Capture)
+- Added helper methods in CaptureHelper targeting Bluetooth LE devices
+  - Added `[Get/Set]Property` to ease the creation of properties not listed in the Helper
+  - Added `SetShutdownDevice` method to power off the device
+  - Added `SetResetDevice` method to reset the device
+  - Added `[Get/Set]LocalAcknowledgmentAsync` to manage scanning delays
+  - Added `[Get/Set]DecodeActionAsync` to manage the scanner's behavior when reading a barcode (beep, LED, rumble)
