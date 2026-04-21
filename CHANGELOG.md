@@ -2,6 +2,30 @@
 
 This file tracks released versions of the C# CaptureSDK.
 
+## Version 2.0.26.184
+
+### New
+
+  * N/A
+
+
+### Improvements
+
+  * Updated native Android CaptureSDK to version 2.0.22
+
+  * Updated minimum .NET target to version 9
+
+  * Updated native iOS CaptureSDK to version 2.0.73. ARM64 simulator is added for build only purpose
+
+  * Updated SetTrigger[...]Async into one method, SetTriggerAsync(). See ICaptureProperty.Values.Trigger values for arguments
+
+
+
+### Bug fixes
+
+  * N/A
+
+
 ## Version 2.0.19.509
 
 ### New
