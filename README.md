@@ -1,4 +1,4 @@
-# C# CaptureSDK Version 2.0.26.184 Windows
+# C# CaptureSDK Version 2.0.33.469 Windows
 
 The Windows CaptureSDK is [available publicly on nuget.org here](https://www.nuget.org/packages/SocketMobile.Capture)
 
