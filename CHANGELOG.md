@@ -2,6 +2,24 @@
 
 This file tracks released versions of the C# CaptureSDK.
 
+## Version 2.0.33.469
+
+### New
+
+  * Added IsNFCReader and IsBarcodeReader methods in CaptureHelperDevice to distinguish device scan type
+
+
+
+### Improvements
+
+  * N/A
+
+
+### Bug fixes
+
+  * N/A
+
+
 ## Version 2.0.26.184
 
 ### New
